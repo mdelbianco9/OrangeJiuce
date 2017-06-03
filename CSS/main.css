@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+}
+
+nav {
+	background-color: #ff9f01;
+	width: 100%;
+	position: absolute;
+	-webkit-box-shadow: 0 0 0 2px #ff9f01, 0 4px 2px #e88700;
+}
+
+/* this is the UL inside the navbar */
+.sitenav {
+	padding: 1%;
+	padding-top: 0;
+}
+
+/* This styles "orangejuice" on the left hand side of the navbar */
+.orange {
+	padding-left: 5%;
+	padding-right: 25%;
+	font-family: 'Dosis', sans-serif;
+	font-size: xx-large;
+}
+
+/* styles the image of the orange slice */
+.orange img {
+	height: 45px;
+	width: 45px;
+	transform: rotate(-15deg);
+}
+
+/* styles the orange in orangejuice in navbar */
+.span1 {
+	color: #fafafa;
+	font-weight: 800;
+}
+
+/*styles the span juice in orange juice */
+.span2 {
+	color: #fafafa;
+	font-weight: 100;
+}
+
+/* This styles the LI elements in .sitenav */
+.sitenav li {
+	display: inline;
+}
+
+.list {
+	padding-right: 3%;
+	color: #fafafa;
+	font-family: 'Oxygen', sans-serif;
+	font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
