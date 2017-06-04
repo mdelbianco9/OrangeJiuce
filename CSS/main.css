@@ -63,15 +63,52 @@ nav {
 }
 
 /*-----------Middle Section---------------*/
-/*
-p {
-	padding-top: 100px;
-	border: 1px solid black;
-	float: right;
-	width: 40%;
-}*/
 
-.image img {
+p {
+	margin-top: 120px;
+	margin-right: 6%;
+	/*border: 1px solid black;*/
+	float: right;
+	height: 150px;
+	width: 46%;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+	color: #ff9600;
+	word-spacing: 8px;
+	letter-spacing: 2px;
+	line-height: 50px;
+}
+
+.span4 {
+	color: rgb(238, 113, 22);
+	font-weight: 800;
+}
+
+.span5 {
+	color: rgb(252, 156, 19);
+	font-weight: 100;
+}
+
+.span6 {
+	font-size: 10px;
+	vertical-align: super;
+}
+
+.span7 {
+	color: #769c8e;
+	font-weight: 800;
+}
+
+header img {
+	width: 495px;
+	height: 495px;
+	margin-top: 15px;
+	margin-left: 30px;
+	/*border: 1px solid blue;*/
+}
+
+
+/*.image img {
 	height: 490px;
 	width: 490px;
 	margin-top: 50px;
