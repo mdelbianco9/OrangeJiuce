@@ -7,8 +7,8 @@ nav {
 	width: 100%;
 	/*position: absolute;*/
 	height: 50px;
-	-webkit-box-shadow: 0 0 0 2px #ff9f01, 0 4px 2px #e88700;
-	display: block;
+/*	-webkit-box-shadow: 0 0 0 2px #ff9f01, 0 4px 2px #e88700;
+*/	display: block;
 }
 
 /* this is the UL inside the navbar */
@@ -64,21 +64,6 @@ nav {
 
 /*-----------Middle Section---------------*/
 
-p {
-	margin-top: 120px;
-	margin-right: 6%;
-	/*border: 1px solid black;*/
-	float: right;
-	height: 150px;
-	width: 46%;
-	font-family: 'Oxygen', sans-serif;
-	font-size: 30px;
-	color: #ff9600;
-	word-spacing: 8px;
-	letter-spacing: 2px;
-	line-height: 50px;
-}
-
 .span4 {
 	color: rgb(238, 113, 22);
 	font-weight: 800;
@@ -95,19 +80,85 @@ p {
 }
 
 .span7 {
-	color: #769c8e;
+	color: rgb(115, 175, 218);
 	font-weight: 800;
 }
 
+p {
+	margin-top: 120px;
+	margin-right: 7%;
+	border: 1px solid black;
+	float: right;
+	height: 150px;
+	width: 46%;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+	color: #ff9600;
+	word-spacing: 8px;
+	letter-spacing: 2px;
+	line-height: 50px;
+}
+
 header img {
-	width: 495px;
-	height: 495px;
-	margin-top: 15px;
-	margin-left: 30px;
-	/*border: 1px solid blue;*/
+	width: 450px;
+	height: 450px;
+	margin-top: 5px;
+	margin-left: 45px;
+	border: 1px solid blue;
+}
+
+input {
+	margin-left: 80%;
+	margin-top: 1%;
+	border: 1px solid rgb(192, 187, 187);
+	border-radius: 50%
+	height: 35px;
+	width: 170px;
+	font-size: 20px;
+}
+
+.footer {
+	background-color: rgb(115, 175, 218);
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	-webkit-box-shadow: 2px 0 0 0 #ff9f01, 0 4px 2px rgb(122, 129, 151)
 }
 
 
+.buttons {
+	border: 1px solid black;
+	height: 60px;
+	width: 43%;
+	float: right;
+	margin-right: 10%;
+	margin-top: 40px; 
+	/*margin-left: 30%;*/
+}
+
+.buttons li {
+	display: inline-block;
+	border: 1px solid red;
+	 /* why wont my top margin work? */
+	margin-left: 10%;
+	padding: 15px;
+	text-align: center;
+	border-radius: 3%;
+}
+
+.left {
+	background-color: #ff9f01;
+}
+
+.right {
+	background-color: rgb(115, 175, 218);
+}
+
+.buttons li a {
+	color: #fafafa;
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+}
 /*.image img {
 	height: 490px;
 	width: 490px;
