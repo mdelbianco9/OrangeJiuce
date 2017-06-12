@@ -74,6 +74,12 @@ nav {
 	width: 15%;
 	font-size: 20px;
 }
+
+.searchbar i {
+	position: relative;
+	right: 3%;
+	color: rgb(170, 170, 170)
+}
 /*----- Picture stuff ------*/
 /* this is a box around the image to make positioning other elements easier */
 .picture {
@@ -81,7 +87,7 @@ nav {
 	display: inline-block;
 	height: 450px;
 	width: 40%;
-	margin-left: 7%;
+	margin-left: 3%;
 }
 /* This styles the image inside of the box above to make it pretty */
 .picture img {
@@ -106,6 +112,7 @@ nav {
 	height: 250px;
 	width: 100%;
 	margin-top: 15%;
+	margin-left: 5%;
 }
 /* this gives the specifications for the paragraph in the div box */
 .summary p {
@@ -170,9 +177,102 @@ nav {
 	width: 100%
 }
 
+/*   MEDIA QUERRIES    */
+
+/* 		PICTURE SHRINKS 		*/
+@media (max-width: 960px) {
+	
+	.picture img {
+		display: none;
+	}
+
+
+	.orange {
+		padding-right: 10%;
+	}
 
 
 
 
+}
+/*		PICTURE GOES AWAY, LIST COLOR CHANGES 		*/
+@media (max-width: 850px) {
+	.list {
+		color: #c8c8c8;
+		font-size: small;
+		padding-right: 2%;
+		margin-left: 2%;
+	}
+
+	.picture img {
+		display: none;
+	}
+
+	.picture {
+		display: none;
+	}
+
+	.intro {
+		margin: 0, auto;
+		width: 100%;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.orange {
+		padding-right: 10%;
+	}
+
+}
+/*			FITTING FOR SMALLER DIVICES		*/
+@media (max-width: 500px) {
+	.summary p {
+		font-size: 20px;
+		line-height: 25px;
+		word-spacing: 3px;
+	}
+
+	.summary {
+		margin-top: 10%;
+	}
+
+	.searchbar i {
+		display: none;
+	}
+
+	.searchbar input {
+		font-size: 15px;
+		margin-top: 7%;
+	}
+
+	.buttons li {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 1%;
+	margin-top: 7%;
+	margin-left: 1%;
+	}
 
 
+}
+
+
+@media (max-width: 415px) {
+	.orange {
+		padding-right: 35%;
+	}
+
+	.list {
+		font-size: x-small;
+	}
+}
+
+@media (max-width: 380px) {
+	.orange {
+		padding-right: 28%;
+	}
+}
+
+/*----------------------------------*/
